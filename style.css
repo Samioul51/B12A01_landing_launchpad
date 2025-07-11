@@ -29,6 +29,7 @@ body {
     border: none;
     border-radius: 10px;
     height: 48px;
+    cursor: pointer;
 }
 
 .heading {
@@ -343,3 +344,39 @@ textarea{
 }
 
 /*Footer Section*/
+
+.footer-container{
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.footer-name{
+    font-size: 100px;
+    margin-top: 104px;
+    margin-bottom: 8px;
+}
+
+.footer-desc{
+    font-size: 16px;
+    text-align: center;
+    color:#8987A1;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.links{
+    width: 401px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+    gap:48px;
+}
+
+.links a{
+    text-decoration: none;
+    color:#8987A1;
+    font-size: 16px;
+}
