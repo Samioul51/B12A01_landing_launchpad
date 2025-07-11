@@ -5,6 +5,10 @@
 
 /*Shared Styles*/
 
+body{
+    background-color: #F5F8FF;
+}
+
 .raleway {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -78,6 +82,7 @@ nav {
 }
 
 /*Action Section*/
+
 .action {
     display: flex;
     justify-content: center;
@@ -156,4 +161,115 @@ nav {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
+}
+
+/*Users Feedback Section*/
+
+.user-feedback-section{
+    display: flex;
+    justify-content: center;
+    height:342px;
+    margin-bottom: 137px;
+}
+
+.feedback-section-container{
+    width:1140px;
+}
+
+.feedback-heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.review-container{
+    display: flex;
+    gap:20px;
+}
+
+.review{
+    width:366.67px;
+    box-sizing: border-box;
+    padding:24px 24px;
+    background-color: #fafbff;
+    border:1px solid #f2eded;
+    border-radius: 14px;
+}
+
+.stars{
+    display: flex;
+    gap:4px;
+    margin-bottom: 24px;
+}
+
+.review-heading{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom:8px;
+    color:#1e1e1e;
+}
+
+.review-statement{
+    font-size: 16px;
+    color:#1e1e1e;
+    margin-bottom: 24px;
+}
+
+.reviewer{
+    display: flex;
+    gap:12px;
+}
+
+.reviewer-name{
+    font-size: 16px;
+    color:#757575;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.date{
+    font-size: 16px;
+    color:#b3b3b3;
+}
+
+/*Ready to Focus Better Section*/
+
+.ready-section{
+    height: 696.77px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 92.23px;
+}
+
+.ready-section-container{
+    width:1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 14px;
+}
+
+.ready-heading{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.ready-sub{
+    font-size: 16px;
+    color:#808080;
+    margin-bottom: 20px;
+}
+
+.btn-ready{
+    width: 195px;
+    height: 48px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.ready-section-container img{
+    border: none;
+    border-radius: 48px;
 }
